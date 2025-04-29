@@ -1,5 +1,6 @@
 import "./App.css";
-import NewForm from "./components/NewForm";
+import FormikYup from "./components/FormikYup";
+// import NewForm from "./components/NewForm";
 // import SignupForm from "./components/SignupForm";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <h1>App Component</h1>
       {/* <SignupForm /> */}
-      <NewForm />
+      {/* <NewForm /> */}
+      <FormikYup />
     </>
   );
 }

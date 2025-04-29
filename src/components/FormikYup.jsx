@@ -46,7 +46,7 @@ const FormikYup = () => {
         console.log(values);
       }}
     >
-      {(errors, touched, handleSubmit, getFieldProps) => {
+      {({ errors, touched, handleSubmit, getFieldProps }) => {
         <form onSubmit={handleSubmit}>
           <label htmlFor="firstName">First Name</label>
           <div>
